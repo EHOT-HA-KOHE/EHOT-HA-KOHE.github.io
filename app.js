@@ -13,6 +13,8 @@ let btn3 = document.getElementById("btn3");
 let btn4 = document.getElementById("btn4");
 let btn5 = document.getElementById("btn5");
 let btn6 = document.getElementById("btn6");
+let btn5 = document.getElementById("btn7");
+let btn6 = document.getElementById("btn8");
 
 btn1.addEventListener("click", function () {
 	if (tg.MainButton.isVisible) {
@@ -76,6 +78,28 @@ btn6.addEventListener("click", function () {
 	else {
 		tg.MainButton.setText("Вы выбрали товар 6!");
 		item = "6";
+		tg.MainButton.show();
+	}
+});
+
+btn7.addEventListener("click", function () {
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+	}
+	else {
+		tg.MainButton.setText("Вы выбрали товар 7!");
+		item = "7";
+		tg.MainButton.show();
+	}
+});
+
+btn8.addEventListener("click", function () {
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+	}
+	else {
+		tg.MainButton.setText("Вы выбрали товар 8!");
+		item = "8";
 		tg.MainButton.show();
 	}
 });
