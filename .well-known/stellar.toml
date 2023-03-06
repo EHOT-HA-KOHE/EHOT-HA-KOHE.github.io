@@ -1,0 +1,39 @@
+ORG_NAME = "EXLM"
+ORG_WEBSITE = "https://exlm.me"
+ORG_LOGO = "https://exlm.me/favicon.ico"
+ORG_INDUSTRY = "ElonStellar LLC issues the highest paying yield-assets on Stellar."
+ORG_SECTOR = "Crypto"
+
+[[CURRENCIES]]
+code = "BELG"
+issuer = "GBAN26JZSQXBMLVTDKNCVJMDYW5BYYCJQIOQPC2EN7WUES2FRKOZM5GL"
+status = "live"
+display_decimals = 7
+name = "Belarus Gold"
+fixed_number = 900000000000
+desc = "Belarus Gold"
+conditions = ""
+image = "https://ibb.co/pvty5jD"
+
+[[CURRENCIES]]
+code = "BELG"
+issuer = "GBAN26JZSQXBMLVTDKNCVJMDYW5BYYCJQIOQPC2EN7WUES2FRKOZM5GL"
+status = "live"
+display_decimals = 7
+name = "Belarus Gold"
+fixed_number = 900000000000
+desc = "Belarus Gold"
+conditions = ""
+image = "https://ibb.co/pvty5jD"
+
+[[CURRENCIES]]
+code = "BELG"
+issuer = "GBAN26JZSQXBMLVTDKNCVJMDYW5BYYCJQIOQPC2EN7WUES2FRKOZM5GL"
+status = "live"
+display_decimals = 7
+name = "Belarus Gold"
+fixed_number = 900000000000
+desc = "Belarus Gold"
+conditions = ""
+image = "https://ibb.co/pvty5jD"
+
